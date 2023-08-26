@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"3": "block/cake/ice_cream/cake_inner",
+		"bottom": "block/cake/ice_cream/cake_bottom",
+		"top": "block/cake/ice_cream/cake_top",
+		"particle": "block/cake/ice_cream/cake_side",
+		"side": "block/cake/ice_cream/cake_side"
+	},
+	"elements": [
+		{
+			"from": [11, 0, 1],
+			"to": [15, 8, 15],
+			"faces": {
+				"north": {"uv": [1, 8, 5, 16], "texture": "#side"},
+				"east": {"uv": [1, 8, 15, 16], "texture": "#side"},
+				"south": {"uv": [11, 8, 15, 16], "texture": "#side"},
+				"west": {"uv": [1, 8, 15, 16], "texture": "#3"},
+				"up": {"uv": [11, 1, 15, 15], "texture": "#top"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#bottom", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [-0.25, 0, 0],
+			"scale": [1.65, 1.65, 1.65]
+		}
+	}
+}

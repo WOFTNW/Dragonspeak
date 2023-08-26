@@ -1,0 +1,17 @@
+{
+  "entity.firework_rocket.launch": {
+    "sounds": [
+      "fireworks/launch1",
+      "fireworks/launch2",
+      "fireworks/launch3",
+      "fireworks/launch4",
+      "fireworks/launch5",
+      "fireworks/launch6"
+    ]
+  },
+  "item.elytra.flying": {
+    "sounds": [
+      "item/elytra/elytra_loop"
+    ]
+  }
+}

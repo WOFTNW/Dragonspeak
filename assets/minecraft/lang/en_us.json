@@ -1,0 +1,18 @@
+{
+  "block.minecraft.dragon_egg": "Ender Dragon Egg",
+  "block.minecraft.dragon_head": "Ender Dragon Head",
+  "block.minecraft.dragon_wall_head": "Ender Dragon Wall Head",
+  "block.minecraft.yellow_bed": "Beed",
+  "death.attack.dragonBreath": "%1$s was roasted by the Ender Dragon",
+  "death.attack.dragonBreath.player": "%1$s was roasted by %2$s",
+  "death.attack.drown": "%1$s discovered they are not a SeaWing",
+  "death.attack.flyIntoWall": "%1$s flew a little too fast",
+  "death.attack.flyIntoWall.player": "%1$s flew a little too fast whilst trying to escape %2$s",
+  "death.attack.freeze": "%1$s discovered they are not an IceWing",
+  "death.fell.accident.generic": "%1$s forgot to spread their wings",
+  "death.fell.finish": "%1$s forgot to spread their wings and was finished by %2$s",
+  "death.fell.finish.item": "%1$s forgot to spread their wings and was finished by %2$s using %3$s",
+  "entity.minecraft.dragon_fireball": "Ender Dragon Fireball",
+  "item.minecraft.dragon_breath": "Ender Dragon's Breath",
+  "item.minecraft.elytra": "Wings"
+}

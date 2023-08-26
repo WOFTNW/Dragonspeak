@@ -1,0 +1,106 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/cake"
+	},
+
+	"overrides": [
+		{"predicate": {"custom_model_data": 1001}, "model": "item/cake/generic/generic_cake"},
+		{"predicate": {"custom_model_data": 1002}, "model": "item/cake/generic/generic_cake_1"},
+		{"predicate": {"custom_model_data": 1003}, "model": "item/cake/generic/generic_cake_2"},
+		{"predicate": {"custom_model_data": 1004}, "model": "item/cake/generic/generic_cake_3"},
+		{"predicate": {"custom_model_data": 1005}, "model": "item/cake/generic/generic_cake_4"},
+		{"predicate": {"custom_model_data": 1006}, "model": "item/cake/generic/generic_cake_5"},
+		{"predicate": {"custom_model_data": 1007}, "model": "item/cake/generic/generic_cake_6"},
+
+		{"predicate": {"custom_model_data": 1011}, "model": "item/cake/carrot-cake/carrot_cake"},
+		{"predicate": {"custom_model_data": 1012}, "model": "item/cake/carrot-cake/carrot_cake_1"},
+		{"predicate": {"custom_model_data": 1013}, "model": "item/cake/carrot-cake/carrot_cake_2"},
+		{"predicate": {"custom_model_data": 1014}, "model": "item/cake/carrot-cake/carrot_cake_3"},
+		{"predicate": {"custom_model_data": 1015}, "model": "item/cake/carrot-cake/carrot_cake_4"},
+		{"predicate": {"custom_model_data": 1016}, "model": "item/cake/carrot-cake/carrot_cake_5"},
+		{"predicate": {"custom_model_data": 1017}, "model": "item/cake/carrot-cake/carrot_cake_6"},
+
+		{"predicate": {"custom_model_data": 1021}, "model": "item/cake/blueberry-cake/blueberry_cake"},
+		{"predicate": {"custom_model_data": 1022}, "model": "item/cake/blueberry-cake/blueberry_cake_1"},
+		{"predicate": {"custom_model_data": 1023}, "model": "item/cake/blueberry-cake/blueberry_cake_2"},
+		{"predicate": {"custom_model_data": 1024}, "model": "item/cake/blueberry-cake/blueberry_cake_3"},
+		{"predicate": {"custom_model_data": 1025}, "model": "item/cake/blueberry-cake/blueberry_cake_4"},
+		{"predicate": {"custom_model_data": 1026}, "model": "item/cake/blueberry-cake/blueberry_cake_5"},
+		{"predicate": {"custom_model_data": 1027}, "model": "item/cake/blueberry-cake/blueberry_cake_6"},
+
+		{"predicate": {"custom_model_data": 1031}, "model": "item/cake/strawberry-cake/strawberry_cake"},
+		{"predicate": {"custom_model_data": 1032}, "model": "item/cake/strawberry-cake/strawberry_cake_1"},
+		{"predicate": {"custom_model_data": 1033}, "model": "item/cake/strawberry-cake/strawberry_cake_2"},
+		{"predicate": {"custom_model_data": 1034}, "model": "item/cake/strawberry-cake/strawberry_cake_3"},
+		{"predicate": {"custom_model_data": 1035}, "model": "item/cake/strawberry-cake/strawberry_cake_4"},
+		{"predicate": {"custom_model_data": 1036}, "model": "item/cake/strawberry-cake/strawberry_cake_5"},
+		{"predicate": {"custom_model_data": 1037}, "model": "item/cake/strawberry-cake/strawberry_cake_6"},
+
+		{"predicate": {"custom_model_data": 1041}, "model": "item/cake/cheesecake/cheesecake"},
+		{"predicate": {"custom_model_data": 1042}, "model": "item/cake/cheesecake/cheesecake_1"},
+		{"predicate": {"custom_model_data": 1043}, "model": "item/cake/cheesecake/cheesecake_2"},
+		{"predicate": {"custom_model_data": 1044}, "model": "item/cake/cheesecake/cheesecake_3"},
+		{"predicate": {"custom_model_data": 1045}, "model": "item/cake/cheesecake/cheesecake_4"},
+		{"predicate": {"custom_model_data": 1046}, "model": "item/cake/cheesecake/cheesecake_5"},
+		{"predicate": {"custom_model_data": 1047}, "model": "item/cake/cheesecake/cheesecake_6"},
+
+		{"predicate": {"custom_model_data": 1051}, "model": "item/cake/red-velvet-cake/red_velvet_cake"},
+		{"predicate": {"custom_model_data": 1052}, "model": "item/cake/red-velvet-cake/red_velvet_cake_1"},
+		{"predicate": {"custom_model_data": 1053}, "model": "item/cake/red-velvet-cake/red_velvet_cake_2"},
+		{"predicate": {"custom_model_data": 1054}, "model": "item/cake/red-velvet-cake/red_velvet_cake_3"},
+		{"predicate": {"custom_model_data": 1055}, "model": "item/cake/red-velvet-cake/red_velvet_cake_4"},
+		{"predicate": {"custom_model_data": 1056}, "model": "item/cake/red-velvet-cake/red_velvet_cake_5"},
+		{"predicate": {"custom_model_data": 1057}, "model": "item/cake/red-velvet-cake/red_velvet_cake_6"},
+
+		{"predicate": {"custom_model_data": 1061}, "model": "item/cake/fruitcake/fruit_cake"},
+		{"predicate": {"custom_model_data": 1062}, "model": "item/cake/fruitcake/fruit_cake_1"},
+		{"predicate": {"custom_model_data": 1063}, "model": "item/cake/fruitcake/fruit_cake_2"},
+		{"predicate": {"custom_model_data": 1064}, "model": "item/cake/fruitcake/fruit_cake_3"},
+		{"predicate": {"custom_model_data": 1065}, "model": "item/cake/fruitcake/fruit_cake_4"},
+		{"predicate": {"custom_model_data": 1066}, "model": "item/cake/fruitcake/fruit_cake_5"},
+		{"predicate": {"custom_model_data": 1067}, "model": "item/cake/fruitcake/fruit_cake_6"},
+
+		{"predicate": {"custom_model_data": 1071}, "model": "item/cake/lemon-cake/lemon_cake"},
+		{"predicate": {"custom_model_data": 1072}, "model": "item/cake/lemon-cake/lemon_cake_1"},
+		{"predicate": {"custom_model_data": 1073}, "model": "item/cake/lemon-cake/lemon_cake_2"},
+		{"predicate": {"custom_model_data": 1074}, "model": "item/cake/lemon-cake/lemon_cake_3"},
+		{"predicate": {"custom_model_data": 1075}, "model": "item/cake/lemon-cake/lemon_cake_4"},
+		{"predicate": {"custom_model_data": 1076}, "model": "item/cake/lemon-cake/lemon_cake_5"},
+		{"predicate": {"custom_model_data": 1077}, "model": "item/cake/lemon-cake/lemon_cake_6"},
+
+		{"predicate": {"custom_model_data": 1081}, "model": "item/cake/birthday-cake/birthday_cake"},
+		{"predicate": {"custom_model_data": 1082}, "model": "item/cake/birthday-cake/birthday_cake_1"},
+		{"predicate": {"custom_model_data": 1083}, "model": "item/cake/birthday-cake/birthday_cake_2"},
+		{"predicate": {"custom_model_data": 1084}, "model": "item/cake/birthday-cake/birthday_cake_3"},
+		{"predicate": {"custom_model_data": 1085}, "model": "item/cake/birthday-cake/birthday_cake_4"},
+		{"predicate": {"custom_model_data": 1086}, "model": "item/cake/birthday-cake/birthday_cake_5"},
+		{"predicate": {"custom_model_data": 1087}, "model": "item/cake/birthday-cake/birthday_cake_6"},
+
+		{"predicate": {"custom_model_data": 1091}, "model": "item/cake/ice-cream-cake/ice_cream_cake"},
+		{"predicate": {"custom_model_data": 1092}, "model": "item/cake/ice-cream-cake/ice_cream_cake_1"},
+		{"predicate": {"custom_model_data": 1093}, "model": "item/cake/ice-cream-cake/ice_cream_cake_2"},
+		{"predicate": {"custom_model_data": 1094}, "model": "item/cake/ice-cream-cake/ice_cream_cake_3"},
+		{"predicate": {"custom_model_data": 1095}, "model": "item/cake/ice-cream-cake/ice_cream_cake_4"},
+		{"predicate": {"custom_model_data": 1096}, "model": "item/cake/ice-cream-cake/ice_cream_cake_5"},
+		{"predicate": {"custom_model_data": 1097}, "model": "item/cake/ice-cream-cake/ice_cream_cake_6"},
+
+		{"predicate": {"custom_model_data": 1101}, "model": "item/cake/golden-carrot-cake/golden_carrot_cake"},
+		{"predicate": {"custom_model_data": 1102}, "model": "item/cake/golden-carrot-cake/golden_carrot_cake_1"},
+		{"predicate": {"custom_model_data": 1103}, "model": "item/cake/golden-carrot-cake/golden_carrot_cake_2"},
+		{"predicate": {"custom_model_data": 1194}, "model": "item/cake/golden-carrot-cake/golden_carrot_cake_3"},
+		{"predicate": {"custom_model_data": 1105}, "model": "item/cake/golden-carrot-cake/golden_carrot_cake_4"},
+		{"predicate": {"custom_model_data": 1106}, "model": "item/cake/golden-carrot-cake/golden_carrot_cake_5"},
+		{"predicate": {"custom_model_data": 1107}, "model": "item/cake/golden-carrot-cake/golden_carrot_cake_6"},
+
+		{"predicate": {"custom_model_data": 1111}, "model": "item/cake/chocolate-cake/chocolate_cake"},
+		{"predicate": {"custom_model_data": 1112}, "model": "item/cake/chocolate-cake/chocolate_cake_1"},
+		{"predicate": {"custom_model_data": 1113}, "model": "item/cake/chocolate-cake/chocolate_cake_2"},
+		{"predicate": {"custom_model_data": 1114}, "model": "item/cake/chocolate-cake/chocolate_cake_3"},
+		{"predicate": {"custom_model_data": 1115}, "model": "item/cake/chocolate-cake/chocolate_cake_4"},
+		{"predicate": {"custom_model_data": 1116}, "model": "item/cake/chocolate-cake/chocolate_cake_5"},
+		{"predicate": {"custom_model_data": 1117}, "model": "item/cake/chocolate-cake/chocolate_cake_6"}
+
+
+	]
+}

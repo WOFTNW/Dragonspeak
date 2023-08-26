@@ -1,0 +1,13 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/amethyst_shard"
+	},
+
+	"overrides": [
+		{"predicate": {"custom_model_data": 1000}, "model": "item/relic/ice_crown"},
+		{"predicate": {"custom_model_data": 1001}, "model": "item/relic/eye_of_onyx"},
+		{"predicate": {"custom_model_data": 1002}, "model": "item/relic/circlet"}
+
+	]
+}
