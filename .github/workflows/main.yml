@@ -16,7 +16,7 @@ jobs:
     - name: Archive Release
       uses: thedoctor0/zip-release@master
       with:
-        filename: 'Dreamvisitor.zip'
+        filename: 'Dragonspeak.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig'
     - name: push changes to remote
       run: |
