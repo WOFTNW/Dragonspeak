@@ -3,22 +3,96 @@
 	"textures": {
 		"layer0": "item/sweet_berries"
 	},
-
 	"overrides": [
-		{"predicate": {"custom_model_data": 100000}, "model": "item/berries/blue_berries"},
-		{"predicate": {"custom_model_data": 100001}, "model": "item/berries/black_berries"},
-		{"predicate": {"custom_model_data": 100002}, "model": "item/berries/raspberries"},
-		{"predicate": {"custom_model_data": 100003}, "model": "item/berries/strawberries"},
-		{"predicate": {"custom_model_data": 100004}, "model": "item/berries/huckleberries"},
-		{"predicate": {"custom_model_data": 100005}, "model": "item/berries/gojiberries"},
-		{"predicate": {"custom_model_data": 100006}, "model": "item/berries/gooseberries"},
-		{"predicate": {"custom_model_data": 100007}, "model": "item/berries/cranberries"},
-		{"predicate": {"custom_model_data": 100008}, "model": "item/berries/honeyberries"},
-		{"predicate": {"custom_model_data": 100009}, "model": "item/berries/chokeberries"},
-		{"predicate": {"custom_model_data": 100010}, "model": "item/berries/elderberries"},
-		{"predicate": {"custom_model_data": 100011}, "model": "item/berries/redcurrants"},
-		{"predicate": {"custom_model_data": 100012}, "model": "item/berries/blackcurrants"},
-		{"predicate": {"custom_model_data": 100013}, "model": "item/berries/whitecurrents"},
-		{"predicate": {"custom_model_data": 100014}, "model": "item/berries/pineberries"}
+		{
+			"predicate": {
+				"custom_model_data": 100000
+			},
+			"model": "item/berries/blue_berries"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100001
+			},
+			"model": "item/berries/black_berries"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100002
+			},
+			"model": "item/berries/raspberries"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100003
+			},
+			"model": "item/berries/strawberries"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100004
+			},
+			"model": "item/berries/huckleberries"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100005
+			},
+			"model": "item/berries/gojiberries"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100006
+			},
+			"model": "item/berries/gooseberries"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100007
+			},
+			"model": "item/berries/cranberries"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100008
+			},
+			"model": "item/berries/cloudberries"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100009
+			},
+			"model": "item/berries/chokeberries"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100010
+			},
+			"model": "item/berries/elderberries"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100011
+			},
+			"model": "item/berries/redcurrants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100012
+			},
+			"model": "item/berries/blackcurrants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100013
+			},
+			"model": "item/berries/whitecurrents"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100014
+			},
+			"model": "item/berries/pineberries"
+		}
 	]
 }

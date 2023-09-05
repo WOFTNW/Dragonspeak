@@ -1,6 +1,11 @@
 {
-  "parent": "minecraft:block/cactus",
-  "overrides": [
-    {"predicate": {"custom_model_data": 1000}, "model": "item/birdhouse/sundew"}
-  ]
+	"parent": "minecraft:block/cactus",
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1000
+			},
+			"model": "item/birdhouse/sundew"
+		}
+	]
 }
