@@ -3,8 +3,12 @@
 	"textures": {
 		"layer0": "item/prismarine_shard"
 	},
-
 	"overrides": [
-		{"predicate": {"custom_model_data": 1003}, "model": "item/misc/heart_shard"}
+		{
+			"predicate": {
+				"custom_model_data": 1003
+			},
+			"model": "item/misc/heart_shard"
+		}
 	]
 }

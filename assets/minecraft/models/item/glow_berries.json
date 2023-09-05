@@ -3,18 +3,66 @@
 	"textures": {
 		"layer0": "item/glow_berries"
 	},
-
 	"overrides": [
-		{"predicate": {"custom_model_data": 100015}, "model": "item/berries/glow/sky_berry"},
-		{"predicate": {"custom_model_data": 100016}, "model": "item/berries/glow/night_berry"},
-		{"predicate": {"custom_model_data": 100017}, "model": "item/berries/glow/sand_berry"},
-		{"predicate": {"custom_model_data": 100018}, "model": "item/berries/glow/sea_berry"},
-		{"predicate": {"custom_model_data": 100019}, "model": "item/berries/glow/ice_berry"},
-		{"predicate": {"custom_model_data": 100020}, "model": "item/berries/glow/rain_berry"},
-		{"predicate": {"custom_model_data": 100021}, "model": "item/berries/glow/mud_berry"},
-
-		{"predicate": {"custom_model_data": 100022}, "model": "item/berries/glow/hive_berry"},
-		{"predicate": {"custom_model_data": 100023}, "model": "item/berries/glow/silk_berry"},
-		{"predicate": {"custom_model_data": 100024}, "model": "item/berries/glow/leaf_berry"}
+		{
+			"predicate": {
+				"custom_model_data": 100015
+			},
+			"model": "item/berries/glow/sky_berry"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100016
+			},
+			"model": "item/berries/glow/night_berry"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100017
+			},
+			"model": "item/berries/glow/sand_berry"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100018
+			},
+			"model": "item/berries/glow/sea_berry"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100019
+			},
+			"model": "item/berries/glow/ice_berry"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100020
+			},
+			"model": "item/berries/glow/rain_berry"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100021
+			},
+			"model": "item/berries/glow/mud_berry"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100022
+			},
+			"model": "item/berries/glow/hive_berry"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100023
+			},
+			"model": "item/berries/glow/silk_berry"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100024
+			},
+			"model": "item/berries/glow/leaf_berry"
+		}
 	]
 }
