@@ -6,17 +6,25 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-    - name: pull latest and remove old file from repo
+    - name: pull latest and rename the existing file
       run: |
         git config --global user.email "conleybear06@gmail.com"
         git config --global user.name "Stonley890"
         git config pull.rebase false
         git pull
-        rm -f release.zip
+        # Find the current commit count
+        commit_count=$(git rev-list --count HEAD)
+        # Generate the new filename with the commit count
+        new_filename="Dragonspeak$commit_count.zip"
+        # Check if there's an existing file matching the pattern
+        existing_file=$(find . -name "Dragonspeak*.zip" -print -quit)
+        if [ -n "$existing_file" ]; then
+          mv "$existing_file" "$new_filename"
+        fi
     - name: Archive Release
       uses: thedoctor0/zip-release@master
       with:
-        filename: 'Dragonspeak.zip'
+        filename: $new_filename 
         exclusions: '*.git* /*node_modules/* .editorconfig'
     - name: push changes to remote
       run: |
