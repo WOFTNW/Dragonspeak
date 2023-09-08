@@ -1,52 +1,47 @@
-name: Create Archive
-on: [push]
+name: Create Dragonspeak Release
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
 
+    steps:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: pull latest and rename the existing file
-      run: |
-        git config --global user.email "conleybear06@gmail.com"
-        git config --global user.name "Stonley890"
-        git config pull.rebase false
-        git pull
-        # Find the current commit count
-        commit_count=$(git rev-list --count HEAD)
-        # Generate the new filename with the commit count
-        new_filename="Dragonspeak$commit_count.zip"
+    - name: Generate unique string
+      id: unique_string
+      run: echo "::set-output name=unique_string::$(date +%Y%m%d%H%M%S)"
 
-    - name: Create Release
+    - name: Archive code
+      run: |
+        mkdir -p Dragonspeak-${{ steps.unique_string.outputs.unique_string }}
+        cp -R * Dragonspeak-${{ steps.unique_string.outputs.unique_string }}
+        zip -r Dragonspeak-${{ steps.unique_string.outputs.unique_string }}.zip Dragonspeak-${{ steps.unique_string.outputs.unique_string }}
+      working-directory: ${{ github.workspace }}
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: Dragonspeak-${{ steps.unique_string.outputs.unique_string }}.zip
+        path: Dragonspeak-${{ steps.unique_string.outputs.unique_string }}.zip
+
+    - name: Create release
       id: create_release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: Dragonspeak-${{ steps.unique_string.outputs.unique_string }}.zip
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Store release URL
+      id: release_url
+      run: echo "::set-output name=release_url::${{ steps.create_release.outputs.upload_url }}"
+    
+    - name: Display release URL
       run: |
-        RELEASE_ID=$(curl -s -X POST \
-          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-          -H "Accept: application/vnd.github.v3+json" \
-          https://api.github.com/repos/${{ github.repository }}/releases \
-          -d '{
-            "tag_name": "temp-tag",
-            "name": "Temporary Release",
-            "body": "Temporary release created without a tag.",
-            "draft": false,
-            "prerelease": false
-          }' | jq -r .id)
-
-        # Upload the asset to the release
-        curl -s -X POST \
-          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-          -H "Accept: application/vnd.github.v3+json" \
-          -H "Content-Type: application/zip" \
-          --data-binary @"$new_filename" \
-          "https://uploads.github.com/repos/${{ github.repository }}/releases/$RELEASE_ID/assets?name=$new_filename"
-
-        echo "Release ID: $RELEASE_ID"
-
-    - name: Delete the temporary tag
-      run: git push origin --delete tmp-release
-
-    - name: Get Release URL
-      run: |
-        echo "Release URL: ${{ steps.create_release.outputs.upload_url }}"
+        echo "Release URL: ${{ steps.release_url.outputs.release_url }}"
