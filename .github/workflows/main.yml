@@ -16,18 +16,14 @@ jobs:
         commit_count=$(git rev-list --count HEAD)
         # Generate the new filename with the commit count
         new_filename="Dragonspeak$commit_count.zip"
-        # Check if there's an existing file matching the pattern
-        existing_file=$(find . -name "Dragonspeak*.zip" -print -quit)
-        if [ -n "$existing_file" ]; then
-          mv "$existing_file" "$new_filename"
-        fi
-    - name: Archive Release
-      uses: thedoctor0/zip-release@master
+    - name: Create Release
+      id: create_release
+      uses: softprops/action-gh-release@v1
       with:
-        filename: $new_filename 
-        exclusions: '*.git* /*node_modules/* .editorconfig'
-    - name: push changes to remote
+        files: $new_filename
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Get Release URL
       run: |
-        git add -A
-        git commit -m "new pack"
-        git push --force
+        echo "Release URL: ${{ steps.create_release.outputs.upload_url }}"
