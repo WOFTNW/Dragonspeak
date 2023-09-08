@@ -17,11 +17,19 @@ jobs:
       id: unique_string
       run: echo "::set-output name=unique_string::$(date +%Y%m%d%H%M%S)"
 
+    - name: Create temporary directory
+      id: create_temp_dir
+      run: mkdir -p Dragonspeak-${{ steps.unique_string.outputs.unique_string }}
+
+    - name: Copy code to temporary directory
+      run: |
+        cp -R * Dragonspeak-${{ steps.unique_string.outputs.unique_string }}
+      working-directory: ${{ github.workspace }}
+
     - name: Archive code
       run: |
-        mkdir -p Dragonspeak-${{ steps.unique_string.outputs.unique_string }}
-        cp -R * Dragonspeak-${{ steps.unique_string.outputs.unique_string }}
-        zip -r Dragonspeak-${{ steps.unique_string.outputs.unique_string }}.zip Dragonspeak-${{ steps.unique_string.outputs.unique_string }}
+        cd Dragonspeak-${{ steps.unique_string.outputs.unique_string }}
+        zip -r ../Dragonspeak-${{ steps.unique_string.outputs.unique_string }}.zip .
       working-directory: ${{ github.workspace }}
 
     - name: Upload artifact
