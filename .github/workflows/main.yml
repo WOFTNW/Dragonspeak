@@ -4,8 +4,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+
     - name: Checkout code
       uses: actions/checkout@v2
+
     - name: pull latest and rename the existing file
       run: |
         git config --global user.email "conleybear06@gmail.com"
@@ -16,6 +18,13 @@ jobs:
         commit_count=$(git rev-list --count HEAD)
         # Generate the new filename with the commit count
         new_filename="Dragonspeak$commit_count.zip"
+
+    - name: Create a temporary tag
+      run: git tag tmp-release
+
+    - name: Push the temporary tag to GitHub
+      run: git push origin tmp-release
+
     - name: Create Release
       id: create_release
       uses: softprops/action-gh-release@v1
@@ -23,6 +32,9 @@ jobs:
         files: $new_filename
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Delete the temporary tag
+      run: git push origin --delete tmp-release
 
     - name: Get Release URL
       run: |
