@@ -19,19 +19,30 @@ jobs:
         # Generate the new filename with the commit count
         new_filename="Dragonspeak$commit_count.zip"
 
-    - name: Create a temporary tag
-      run: git tag tmp-release
-
-    - name: Push the temporary tag to GitHub
-      run: git push origin tmp-release
-
     - name: Create Release
       id: create_release
-      uses: softprops/action-gh-release@v1
-      with:
-        files: $new_filename
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        RELEASE_ID=$(curl -s -X POST \
+          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/${{ github.repository }}/releases \
+          -d '{
+            "tag_name": "temp-tag",
+            "name": "Temporary Release",
+            "body": "Temporary release created without a tag.",
+            "draft": false,
+            "prerelease": false
+          }' | jq -r .id)
+
+        # Upload the asset to the release
+        curl -s -X POST \
+          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          -H "Content-Type: application/zip" \
+          --data-binary @"$new_filename" \
+          "https://uploads.github.com/repos/${{ github.repository }}/releases/$RELEASE_ID/assets?name=$new_filename"
+
+        echo "Release ID: $RELEASE_ID"
 
     - name: Delete the temporary tag
       run: git push origin --delete tmp-release
