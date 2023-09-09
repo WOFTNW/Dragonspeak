@@ -24,11 +24,18 @@ jobs:
       continue-on-error: true
 
     - name: Archive code
-      uses: ksm2/archive-action@v1
-      with:
-        format: zip
-        root-directory: .
-        name: Dragonspeak-${{ github.run_id }}.zip
+      run: |
+        # Create a ZIP archive of the main branch contents
+        zip -r Dragonspeak-${{ github.run_id }}.zip .
+
+        # Verify that the ZIP archive was created
+        if [ -f Dragonspeak-${{ github.run_id }}.zip ]; then
+          echo "ZIP archive created successfully."
+        else
+          echo "Failed to create ZIP archive."
+          exit 1
+        fi
+      working-directory: ${{ github.workspace }}
 
     - name: Upload artifact
       uses: actions/upload-artifact@v2
