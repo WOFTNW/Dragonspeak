@@ -27,8 +27,8 @@ jobs:
       uses: ksm2/archive-action@v1
       with:
         format: zip
-        output: Dragonspeak-${{ github.run_id }}.zip
-        working-directory: ${{ github.workspace }}
+        root-directory: .
+        name: Dragonspeak-${{ github.run_id }}.zip
 
     - name: Upload artifact
       uses: actions/upload-artifact@v2
