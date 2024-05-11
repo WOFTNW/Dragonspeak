@@ -9,6 +9,12 @@
 				"custom_model_data": 1
 			},
 			"model": "item/plume/talisman"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2560
+			},
+			"model": "item/bracelets/emerald_bracelet"
 		}
 	]
 }

@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:block/chain_command_block",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "item/plume/talisman"
+        }
+    ]
+}
