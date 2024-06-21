@@ -6,9 +6,15 @@
 	"overrides": [
 		{
 			"predicate": {
-				"custom_model_data": 1000
+				"custom_model_data": 2530
 			},
-			"model": "item/relics/bloodletting_blade"
+			"model": "item/weapons/rapiers/netherite_rapier"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2540
+			},
+			"model": "item/weapons/daggers/netherite_dagger"
 		}
 	]
 }
