@@ -9,6 +9,18 @@
 				"custom_model_data": 1000
 			},
 			"model": "item/relics/turquoise_trident"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2530
+			},
+			"model": "item/weapons/rapiers/golden_rapier"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2540
+			},
+			"model": "item/weapons/daggers/golden_dagger"
 		}
 	]
 }
