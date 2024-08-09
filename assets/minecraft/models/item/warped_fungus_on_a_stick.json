@@ -1,7 +1,7 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "item/ender_eye"
+		"layer0": "item/warped_fungus_on_a_stick"
 	},
 	"overrides": [
 		{
