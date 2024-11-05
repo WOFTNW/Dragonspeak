@@ -38,7 +38,7 @@ jobs:
       working-directory: ${{ github.workspace }}
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: Dragonspeak-${{ github.run_id }}.zip
         path: Dragonspeak-${{ github.run_id }}.zip
