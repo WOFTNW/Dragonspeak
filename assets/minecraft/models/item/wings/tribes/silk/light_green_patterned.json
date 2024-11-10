@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/wings/tribes/silk/light_green_patterned"
+    }
+}

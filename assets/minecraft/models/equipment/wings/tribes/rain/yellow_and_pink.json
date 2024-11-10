@@ -1,0 +1,9 @@
+{
+    "layers": {
+        "wings": [
+            {
+                "texture": "minecraft:tribes/rain/yellow_and_pink"
+            }
+        ]
+    }
+}
