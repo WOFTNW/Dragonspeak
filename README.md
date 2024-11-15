@@ -29,5 +29,5 @@ Included in this repository is a Python script, `create_wings_gui.py`. You can u
 You can test your wings in-game by running the command:
 
 ```mcfunction
-/give @s elytra[equippable={slot:"chest",model:"minecraft:<subpath>/<itemname>"}]
+/give @s elytra[equippable={slot:"chest",model:"minecraft:<subpath>/<itemname>"},item_model="minecraft:<subpath>/<itemname>"]
 ```
