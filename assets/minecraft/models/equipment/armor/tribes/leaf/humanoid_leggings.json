@@ -1,0 +1,9 @@
+{
+    "layers": {
+        "humanoid_leggings": [
+            {
+                "texture": "minecraft:tribes/leaf/humanoid_leggings"
+            }
+        ]
+    }
+}
