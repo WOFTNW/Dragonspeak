@@ -15,6 +15,42 @@
 				"custom_model_data": 200000
 			},
 			"model": "item/misc/heart_of_ice_and_fire_3d"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1001
+			},
+			"model": "minecraft:item/red_dye"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1002
+			},
+			"model": "minecraft:item/lantern"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1003
+			},
+			"model": "minecraft:item/nether_star"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1004
+			},
+            "model": "minecraft:item/holidays/2024/great_ice_dragon_winter_exchange/mint_leaves"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1005
+			},
+            "model": "minecraft:item/holidays/2024/great_ice_dragon_winter_exchange/snow_globe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1006
+			},
+            "model": "minecraft:item/holidays/2024/great_ice_dragon_winter_exchange/glass_ornament"
 		}
 	]
 }

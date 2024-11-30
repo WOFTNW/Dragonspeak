@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "minecraft:item/holidays/2024/great_ice_dragon_winter_exchange/currency"
+    }
+}
