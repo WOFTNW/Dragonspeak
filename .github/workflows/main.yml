@@ -38,7 +38,7 @@ jobs:
       working-directory: ${{ github.workspace }}
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: Dragonspeak-${{ github.run_id }}.zip
         path: Dragonspeak-${{ github.run_id }}.zip
@@ -57,46 +57,10 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      ########
-#    - name: Create temporary directory
-#      id: create_temp_dir
-#      run: mkdir -p Dragonspeak-${{ steps.unique_string.outputs.unique_string }}
-#
-#    - name: Copy code to temporary directory
-#      run: |
-#        find . -maxdepth 1 -type f -exec cp {} Dragonspeak-${{ steps.unique_string.outputs.unique_string }} \;
-#      working-directory: ${{ github.workspace }}
-
-#    - name: Archive code
-#      run: |
-#        cd Dragonspeak-${{ steps.unique_string.outputs.unique_string }}
-#        zip -r ../Dragonspeak-${{ steps.unique_string.outputs.unique_string }}.zip .
-#      working-directory: ${{ github.workspace }}
-#
-#    - name: Upload artifact
-#      uses: actions/upload-artifact@v2
-#      with:
-#        name: Dragonspeak-${{ steps.unique_string.outputs.unique_string }}.zip
-#        path: Dragonspeak-${{ steps.unique_string.outputs.unique_string }}.zip
-#
-#    - name: Set up Git
-#      run: |
-#        git config --global user.email "actions@github.com"
-#        git config --global user.name "GitHub Actions"
-#
-#    - name: Create Git tag
-#      run: |
-#        git tag v${{ steps.unique_string.outputs.unique_string }}
-#        git push origin v${{ steps.unique_string.outputs.unique_string }}
-#
-#    - name: Create release
-#      id: create_release
-#      uses: softprops/action-gh-release@v1
-#      with:
-#        files: Dragonspeak-${{ steps.unique_string.outputs.unique_string }}.zip
-#        tag_name: v${{ steps.unique_string.outputs.unique_string }}
-#      env:
-#        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Delete branch
+      run: |
+        git push origin --delete release/${{ github.run_id }}
+      continue-on-error: true
 
     - name: Store release URL
       id: release_url
