@@ -12,7 +12,7 @@
 		},
 		{
             "predicate": {
-                "custom_model_data": 1000
+                "custom_model_data": 202400
             },
             "model": "item/holidays/2024/great_ice_dragon_winter_exchange/currency"
         }

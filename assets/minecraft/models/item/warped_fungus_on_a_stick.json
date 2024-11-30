@@ -168,12 +168,6 @@
 		},
 		{
 			"predicate": {
-				"custom_model_data": 200111
-			},
-			"model": "item/eof/leafwing/primary-2"
-		},
-		{
-			"predicate": {
 				"custom_model_data": 200101
 			},
 			"model": "item/eof/leafwing/secondary"
@@ -183,6 +177,12 @@
 				"custom_model_data": 200110
 			},
 			"model": "item/eof/leafwing/tertiary"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 200111
+			},
+			"model": "item/eof/leafwing/primary-2"
 		},
 		{
 			"predicate": {
