@@ -1,14 +1,14 @@
 {
-	"parent": "minecraft:item/handheld",
-	"textures": {
-		"layer0": "minecraft:item/netherite_shovel"
-	},
-	"overrides": [
-		{
-			"predicate": {
-				"custom_model_data": 2577
-			},
-			"model": "item/weapons/spears/netherite_spear"
-		}
-	]
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/netherite_shovel"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 2577
+            },
+            "model": "item/weapons/spears/netherite_spear"
+        }
+    ]
 }

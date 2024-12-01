@@ -1,14 +1,14 @@
 {
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "item/blaze_rod"
-	},
-	"overrides": [
-		{
-			"predicate": {
-				"custom_model_data": 1000
-			},
-			"model": "item/relics/new_scepter_spinel"
-		}
-	]
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/blaze_rod"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1000
+            },
+            "model": "item/relics/new_scepter_spinel"
+        }
+    ]
 }

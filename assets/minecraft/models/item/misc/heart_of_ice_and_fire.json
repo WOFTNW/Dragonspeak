@@ -1,6 +1,6 @@
 {
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "item/heart_of_ice_and_fire"
-	}
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/heart_of_ice_and_fire"
+    }
 }

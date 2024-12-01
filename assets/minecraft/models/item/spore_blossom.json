@@ -1,11 +1,11 @@
 {
-	"parent": "minecraft:block/spore_blossom",
-	"overrides": [
-		{
-			"predicate": {
-				"custom_model_data": 1000
-			},
-			"model": "item/birdhouse/rafflesia"
-		}
-	]
+    "parent": "minecraft:block/spore_blossom",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1000
+            },
+            "model": "item/birdhouse/rafflesia"
+        }
+    ]
 }

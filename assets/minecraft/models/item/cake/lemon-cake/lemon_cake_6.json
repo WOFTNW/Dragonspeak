@@ -1,108 +1,58 @@
 {
-	"credit": "Made with Blockbench",
-	"textures": {
-		"3": "block/cake/lemon/cake_inner",
-		"bottom": "block/cake/lemon/cake_bottom",
-		"top": "block/cake/lemon/cake_top",
-		"particle": "block/cake/lemon/cake_side",
-		"side": "block/cake/lemon/cake_side"
-	},
-	"elements": [
-		{
-			"from": [
-				13,
-				0,
-				1
-			],
-			"to": [
-				15,
-				8,
-				15
-			],
-			"faces": {
-				"north": {
-					"uv": [
-						1,
-						8,
-						3,
-						16
-					],
-					"texture": "#side"
-				},
-				"east": {
-					"uv": [
-						1,
-						8,
-						15,
-						16
-					],
-					"texture": "#side"
-				},
-				"south": {
-					"uv": [
-						13,
-						8,
-						15,
-						16
-					],
-					"texture": "#side"
-				},
-				"west": {
-					"uv": [
-						1,
-						8,
-						15,
-						16
-					],
-					"texture": "#3"
-				},
-				"up": {
-					"uv": [
-						13,
-						1,
-						15,
-						15
-					],
-					"texture": "#top"
-				},
-				"down": {
-					"uv": [
-						13,
-						1,
-						15,
-						15
-					],
-					"texture": "#bottom",
-					"cullface": "down"
-				}
-			}
-		}
-	],
-	"display": {
-		"head": {
-			"translation": [
-				-0.25,
-				0,
-				0
-			],
-			"scale": [
-				1.65,
-				1.65,
-				1.65
-			]
-		}
-	},
-	"groups": [
-		0,
-		{
-			"name": "lemon",
-			"origin": [
-				8,
-				8,
-				8
-			],
-			"color": 0,
-			"children": []
-		}
-	]
+    "credit": "Made with Blockbench",
+    "textures": {
+        "3": "block/cake/lemon/cake_inner",
+        "bottom": "block/cake/lemon/cake_bottom",
+        "top": "block/cake/lemon/cake_top",
+        "particle": "block/cake/lemon/cake_side",
+        "side": "block/cake/lemon/cake_side"
+    },
+    "elements": [
+        {
+            "from": [13, 0, 1],
+            "to": [15, 8, 15],
+            "faces": {
+                "north": {
+                    "uv": [1, 8, 3, 16],
+                    "texture": "#side"
+                },
+                "east": {
+                    "uv": [1, 8, 15, 16],
+                    "texture": "#side"
+                },
+                "south": {
+                    "uv": [13, 8, 15, 16],
+                    "texture": "#side"
+                },
+                "west": {
+                    "uv": [1, 8, 15, 16],
+                    "texture": "#3"
+                },
+                "up": {
+                    "uv": [13, 1, 15, 15],
+                    "texture": "#top"
+                },
+                "down": {
+                    "uv": [13, 1, 15, 15],
+                    "texture": "#bottom",
+                    "cullface": "down"
+                }
+            }
+        }
+    ],
+    "display": {
+        "head": {
+            "translation": [-0.25, 0, 0],
+            "scale": [1.65, 1.65, 1.65]
+        }
+    },
+    "groups": [
+        0,
+        {
+            "name": "lemon",
+            "origin": [8, 8, 8],
+            "color": 0,
+            "children": []
+        }
+    ]
 }

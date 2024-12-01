@@ -1,20 +1,20 @@
 {
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "item/prismarine_shard"
-	},
-	"overrides": [
-		{
-			"predicate": {
-				"custom_model_data": 1003
-			},
-			"model": "item/misc/heart_shard"
-		},
-		{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/prismarine_shard"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1003
+            },
+            "model": "item/misc/heart_shard"
+        },
+        {
             "predicate": {
                 "custom_model_data": 202400
             },
             "model": "item/holidays/2024/great_ice_dragon_winter_exchange/currency"
         }
-	]
+    ]
 }

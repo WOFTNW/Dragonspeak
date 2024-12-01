@@ -1,6 +1,6 @@
 {
-	"parent": "minecraft:item/handheld",
-	"textures": {
-		"layer0": "item/weapons/warhammers/golden_warhammer"
-	}
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "item/weapons/warhammers/golden_warhammer"
+    }
 }

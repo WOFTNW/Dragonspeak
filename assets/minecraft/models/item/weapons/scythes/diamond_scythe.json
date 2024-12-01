@@ -1,6 +1,6 @@
 {
-	"parent": "minecraft:item/handheld",
-	"textures": {
-		"layer0": "item/weapons/scythes/diamond_scythe"
-	}
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "item/weapons/scythes/diamond_scythe"
+    }
 }

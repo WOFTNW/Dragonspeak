@@ -1,14 +1,14 @@
 {
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "item/dragon_breath"
-	},
-	"overrides": [
-		{
-			"predicate": {
-				"custom_model_data": 1000
-			},
-			"model": "item/relics/vine_jar"
-		}
-	]
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/dragon_breath"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1000
+            },
+            "model": "item/relics/vine_jar"
+        }
+    ]
 }

@@ -1,56 +1,56 @@
 {
-	"parent": "minecraft:item/generated",
-	"textures": {
-		"layer0": "minecraft:item/heart_of_the_sea"
-	},
-	"overrides": [
-		{
-			"predicate": {
-				"custom_model_data": 100000
-			},
-			"model": "item/misc/heart_of_ice_and_fire"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 200000
-			},
-			"model": "item/misc/heart_of_ice_and_fire_3d"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 202401
-			},
-			"model": "minecraft:item/red_dye"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 202402
-			},
-			"model": "minecraft:item/lantern"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 202403
-			},
-			"model": "minecraft:item/holidays/2024/great_ice_dragon_winter_exchange/brilliant_star"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 202404
-			},
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/heart_of_the_sea"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 100000
+            },
+            "model": "item/misc/heart_of_ice_and_fire"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 200000
+            },
+            "model": "item/misc/heart_of_ice_and_fire_3d"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 202401
+            },
+            "model": "minecraft:item/red_dye"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 202402
+            },
+            "model": "minecraft:item/lantern"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 202403
+            },
+            "model": "minecraft:item/holidays/2024/great_ice_dragon_winter_exchange/brilliant_star"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 202404
+            },
             "model": "minecraft:item/holidays/2024/great_ice_dragon_winter_exchange/mint_leaves"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 202405
-			},
+        },
+        {
+            "predicate": {
+                "custom_model_data": 202405
+            },
             "model": "minecraft:item/holidays/2024/great_ice_dragon_winter_exchange/snow_globe"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 202406
-			},
+        },
+        {
+            "predicate": {
+                "custom_model_data": 202406
+            },
             "model": "minecraft:item/holidays/2024/great_ice_dragon_winter_exchange/glass_ornament"
-		}
-	]
+        }
+    ]
 }

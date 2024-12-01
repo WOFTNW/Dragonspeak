@@ -1,6 +1,6 @@
 {
-	"parent": "minecraft:item/generated",
-	"textures": {
-		"layer0": "item/berries/black_berries"
-	}
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "item/berries/black_berries"
+    }
 }

@@ -1,6 +1,6 @@
 {
-	"parent": "minecraft:item/generated",
-	"textures": {
-		"layer0": "item/heart_shard"
-	}
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "item/heart_shard"
+    }
 }

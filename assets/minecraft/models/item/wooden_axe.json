@@ -1,20 +1,20 @@
 {
-	"parent": "minecraft:item/handheld",
-	"textures": {
-		"layer0": "minecraft:item/wooden_axe"
-	},
-	"overrides": [
-		{
-			"predicate": {
-				"custom_model_data": 2550
-			},
-			"model": "item/weapons/battleaxes/wooden_battleaxe"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 2580
-			},
-			"model": "item/weapons/warhammers/wooden_warhammer"
-		}
-	]
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/wooden_axe"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 2550
+            },
+            "model": "item/weapons/battleaxes/wooden_battleaxe"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2580
+            },
+            "model": "item/weapons/warhammers/wooden_warhammer"
+        }
+    ]
 }

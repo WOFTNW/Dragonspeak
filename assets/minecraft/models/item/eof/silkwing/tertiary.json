@@ -1,6 +1,6 @@
 {
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "item/eof/silkwing/tertiary"
-	}
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/eof/silkwing/tertiary"
+    }
 }

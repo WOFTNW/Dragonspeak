@@ -1,6 +1,6 @@
 {
-	"parent": "minecraft:item/generated",
-	"textures": {
-		"layer0": "item/berries/glow/night_berry"
-	}
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "item/berries/glow/night_berry"
+    }
 }
