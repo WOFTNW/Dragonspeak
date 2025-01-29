@@ -1,0 +1,14 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/gold_nugget"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 20250218
+            },
+            "model": "item/holidays/2025/festival_of_favors/lucky_coin"
+        }
+    ]
+}

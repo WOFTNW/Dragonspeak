@@ -15,6 +15,24 @@
                 "custom_model_data": 2580
             },
             "model": "item/weapons/warhammers/golden_warhammer"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20250208
+            },
+            "model": "item/holidays/2025/festival_of_favors/candy_axe"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20250210
+            },
+            "model": "item/holidays/2025/festival_of_favors/candy_battleaxe"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20250212
+            },
+            "model": "item/holidays/2025/festival_of_favors/candy_warhammer"
         }
     ]
 }

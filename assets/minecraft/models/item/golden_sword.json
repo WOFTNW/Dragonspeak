@@ -21,6 +21,30 @@
                 "custom_model_data": 2540
             },
             "model": "item/weapons/daggers/golden_dagger"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20250200
+            },
+            "model": "item/holidays/2025/festival_of_favors/candy_sword"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20250202
+            },
+            "model": "item/holidays/2025/festival_of_favors/candy_scythe"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20250204
+            },
+            "model": "item/holidays/2025/festival_of_favors/candy_rapier"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20250206
+            },
+            "model": "item/holidays/2025/festival_of_favors/candy_spear"
         }
     ]
 }

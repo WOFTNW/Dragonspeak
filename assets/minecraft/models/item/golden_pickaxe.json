@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "item/golden_pickaxe"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 20250214
+            },
+            "model": "item/holidays/2025/festival_of_favors/candy_pickaxe"
+        }
+    ]
+}
