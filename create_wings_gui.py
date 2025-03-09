@@ -63,12 +63,14 @@ class WingTextureApp:
             # Define target directories
             item_target_dir = f"./assets/minecraft/textures/item/wings/{target_subpath}/"
             equipment_target_dir = f"./assets/minecraft/textures/entity/equipment/wings/{target_subpath}/"
+            item_model_def_target_dir = f"./assets/minecraft/items/wings/{target_subpath}/"
             item_model_target_dir = f"./assets/minecraft/models/item/wings/{target_subpath}/"
-            equipment_model_target_dir = f"./assets/minecraft/models/equipment/wings/{target_subpath}/"
+            equipment_model_target_dir = f"./assets/minecraft/equipment/wings/{target_subpath}/"
             
             # Create target directories if they don't exist
             os.makedirs(item_target_dir, exist_ok=True)
             os.makedirs(equipment_target_dir, exist_ok=True)
+            os.makedirs(item_model_def_target_dir, exist_ok=True)
             os.makedirs(item_model_target_dir, exist_ok=True)
             os.makedirs(equipment_model_target_dir, exist_ok=True)
             
@@ -80,15 +82,28 @@ class WingTextureApp:
             equipment_target_path = os.path.join(equipment_target_dir, f"{formatted_name}.png")
             shutil.copy(equipment_file_path, equipment_target_path)
             
-            # Create item JSON content
+            # Create item model definition JSON content
+            item_model_def_data = {
+                "model": {
+                    "type": "minecraft:model",
+                    "layer0": f"minecraft:item/wings/{target_subpath}/{formatted_name}"
+                }
+            }
+
+            # Create item model JSON content
             item_model_data = {
                 "parent": "item/generated",
                 "textures": {
-                    "layer0": f"item/wings/{target_subpath}/{formatted_name}"
+                    "layer0": f"minecraft:item/wings/{target_subpath}/{formatted_name}"
                 }
             }
             
-            # Write item JSON file
+            # Write item model definition JSON file
+            item_model_def_file_path = os.path.join(item_model_def_target_dir, f"{formatted_name}.json")
+            with open(item_model_def_file_path, "w") as json_file:
+                json.dump(item_model_def_data, json_file, indent=4)
+
+            # Write item model JSON file
             item_model_file_path = os.path.join(item_model_target_dir, f"{formatted_name}.json")
             with open(item_model_file_path, "w") as json_file:
                 json.dump(item_model_data, json_file, indent=4)
