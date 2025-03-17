@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/honey_bottle"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1000
+            },
+            "model": "item/holidays/2024/great_ice_dragon_winter_exchange/hot_cocoa"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/holidays/2025/festival_of_favors/candy_sword"
+    }
+}

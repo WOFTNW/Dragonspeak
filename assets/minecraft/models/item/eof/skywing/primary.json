@@ -1,6 +1,6 @@
 {
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "item/eof/skywing/primary"
-	}
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/eof/skywing/primary"
+    }
 }
