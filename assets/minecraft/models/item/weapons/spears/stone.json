@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "item/weapons/spears/stone"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 45],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, -45],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 45],
+			"translation": [1.5, -1.5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, -45],
+			"translation": [1.5, -1.5, 0]
+		},
+		"head": {
+			"rotation": [-117.99, 38.21, -39.88],
+			"scale": [3, 3, 3]
+		}
+	}
+}

@@ -1,10 +1,6 @@
 {
-    "pack": {
-        "pack_format": 22,
-        "supported_formats": {
-            "min_inclusive": 22,
-            "max_inclusive": 46
-        },
-        "description": "Welcome to Wings of Fire!\nMade by Stonley890"
-    }
+  "pack": {
+    "pack_format": 54,
+    "description": "Welcome to Wings of Fire!"
+  }
 }

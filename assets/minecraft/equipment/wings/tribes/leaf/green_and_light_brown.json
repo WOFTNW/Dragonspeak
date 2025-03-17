@@ -1,0 +1,9 @@
+{
+    "layers": {
+        "wings": [
+            {
+                "texture": "minecraft:tribes/leaf/green_and_light_brown"
+            }
+        ]
+    }
+}

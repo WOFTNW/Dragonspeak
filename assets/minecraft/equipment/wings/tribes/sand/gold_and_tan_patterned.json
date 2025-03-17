@@ -1,0 +1,9 @@
+{
+    "layers": {
+        "wings": [
+            {
+                "texture": "minecraft:tribes/sand/gold_and_tan_patterned"
+            }
+        ]
+    }
+}
