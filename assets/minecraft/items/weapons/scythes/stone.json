@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:weapons/scythes/stone"
+        "model": "minecraft:item/weapons/scythes/stone"
     }
 }

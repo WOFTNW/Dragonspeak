@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:weapons/dagger/iron"
+        "model": "minecraft:item/weapons/dagger/iron"
     }
 }

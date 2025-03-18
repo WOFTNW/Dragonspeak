@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:weapons/battleaxes/stone"
+        "model": "minecraft:item/weapons/battleaxes/stone"
     }
 }

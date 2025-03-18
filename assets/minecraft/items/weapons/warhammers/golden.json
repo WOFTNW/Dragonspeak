@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:weapons/warhammers/golden"
+        "model": "minecraft:item/weapons/warhammers/golden"
     }
 }

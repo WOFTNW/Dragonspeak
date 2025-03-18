@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:weapons/rapier/diamond"
+        "model": "minecraft:item/weapons/rapier/diamond"
     }
 }

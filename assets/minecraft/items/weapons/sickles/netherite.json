@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:weapons/sickles/netherite"
+        "model": "minecraft:item/weapons/sickles/netherite"
     }
 }

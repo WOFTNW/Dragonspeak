@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:signs/event_sign"
+        "model": "minecraft:item/signs/event_sign"
     }
 }

@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:weapons/rapier/netherite"
+        "model": "minecraft:item/weapons/rapier/netherite"
     }
 }

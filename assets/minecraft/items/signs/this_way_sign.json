@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:signs/this_way_sign"
+        "model": "minecraft:item/signs/this_way_sign"
     }
 }

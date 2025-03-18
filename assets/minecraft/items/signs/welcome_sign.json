@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:signs/welcome_sign"
+        "model": "minecraft:item/signs/welcome_sign"
     }
 }

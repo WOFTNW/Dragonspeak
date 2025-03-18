@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:weapons/sickles/iron"
+        "model": "minecraft:item/weapons/sickles/iron"
     }
 }

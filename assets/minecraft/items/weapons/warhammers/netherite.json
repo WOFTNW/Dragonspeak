@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:weapons/warhammers/netherite"
+        "model": "minecraft:item/weapons/warhammers/netherite"
     }
 }

@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:weapons/spears/netherite"
+        "model": "minecraft:item/weapons/spears/netherite"
     }
 }

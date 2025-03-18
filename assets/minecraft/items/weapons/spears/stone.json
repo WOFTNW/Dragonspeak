@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:weapons/spears/stone"
+        "model": "minecraft:item/weapons/spears/stone"
     }
 }

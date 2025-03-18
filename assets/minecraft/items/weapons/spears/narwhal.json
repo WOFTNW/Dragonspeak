@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:weapons/spears/narwhal"
+        "model": "minecraft:item/weapons/spears/narwhal"
     }
 }
