@@ -86,7 +86,7 @@ class WingTextureApp:
             item_model_def_data = {
                 "model": {
                     "type": "minecraft:model",
-                    "layer0": f"minecraft:item/wings/{target_subpath}/{formatted_name}"
+                    "model": f"minecraft:item/wings/{target_subpath}/{formatted_name}"
                 }
             }
 
