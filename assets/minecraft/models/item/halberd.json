@@ -1,0 +1,36 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"1": "item/weapons/spears/bamboo",
+		"layer0": "item/halberd",
+		"particle": "item/weapons/spears/bamboo"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 45],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, -45],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 45],
+			"translation": [1.5, -1.5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, -45],
+			"translation": [1.5, -1.5, 0]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0]
+		},
+		"head": {
+			"rotation": [180, -9, 23],
+			"translation": [0, -13.75, 6.5],
+			"scale": [3, 3, 3]
+		}
+	}
+}
