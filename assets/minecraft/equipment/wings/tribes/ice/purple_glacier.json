@@ -1,0 +1,9 @@
+{
+    "layers": {
+        "wings": [
+            {
+                "texture": "minecraft:tribes/ice/purple_glacier"
+            }
+        ]
+    }
+}
