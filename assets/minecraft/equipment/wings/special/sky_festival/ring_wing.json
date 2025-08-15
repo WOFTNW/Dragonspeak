@@ -1,0 +1,9 @@
+{
+    "layers": {
+        "wings": [
+            {
+                "texture": "minecraft:special/sky_festival/ring_wing"
+            }
+        ]
+    }
+}

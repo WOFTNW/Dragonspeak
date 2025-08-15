@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "minecraft:item/wings/special/sky_festival/scroll_wing"
+    }
+}
