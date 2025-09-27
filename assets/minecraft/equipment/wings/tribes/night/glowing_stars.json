@@ -1,0 +1,9 @@
+{
+    "layers": {
+        "wings": [
+            {
+                "texture": "minecraft:tribes/night/glowing_stars"
+            }
+        ]
+    }
+}

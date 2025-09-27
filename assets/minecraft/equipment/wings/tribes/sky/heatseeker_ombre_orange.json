@@ -1,0 +1,9 @@
+{
+    "layers": {
+        "wings": [
+            {
+                "texture": "minecraft:tribes/sky/heatseeker_ombre_orange"
+            }
+        ]
+    }
+}

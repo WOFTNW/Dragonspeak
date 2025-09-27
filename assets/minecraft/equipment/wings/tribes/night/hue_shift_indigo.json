@@ -1,0 +1,9 @@
+{
+    "layers": {
+        "wings": [
+            {
+                "texture": "minecraft:tribes/night/hue_shift_indigo"
+            }
+        ]
+    }
+}
