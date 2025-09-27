@@ -1,0 +1,9 @@
+{
+    "layers": {
+        "wings": [
+            {
+                "texture": "minecraft:tribes/sea/depths_below_green"
+            }
+        ]
+    }
+}
