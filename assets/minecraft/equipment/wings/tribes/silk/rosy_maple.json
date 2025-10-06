@@ -1,0 +1,9 @@
+{
+    "layers": {
+        "wings": [
+            {
+                "texture": "minecraft:tribes/silk/rosy_maple"
+            }
+        ]
+    }
+}
