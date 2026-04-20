@@ -8,10 +8,5 @@
       "fireworks/launch5",
       "fireworks/launch6"
     ]
-  },
-  "item.elytra.flying": {
-    "sounds": [
-      "item/elytra/elytra_loop"
-    ]
   }
 }
