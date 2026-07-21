@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "item/wings/special/book_wings"
+		"layer0": "item/wings/special/book_wing"
 	}
 }
