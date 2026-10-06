@@ -1,6 +1,0 @@
-{
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "item/holidays/2026/HoneypotHavoc/Spooky_bonbon"
-    }
-}
